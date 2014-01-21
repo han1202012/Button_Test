@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="爱好"/>
+    
+    <CheckBox 
+        android:id="@+id/smoke"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="抽烟"
+        android:checked="true"/>
+    
+    <CheckBox 
+        android:id="@+id/drink"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="喝酒"/>
+    
+    <CheckBox 
+        android:id="@+id/head"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="烫头"/>
+
+</LinearLayout>

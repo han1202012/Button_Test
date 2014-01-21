@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!-- 原来的图片, 显示实际的图片大小 -->
+	<Button 
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:text="原图"
+	    android:background="@drawable/nine_patch_button_normal"/>
+	
+	<!-- 拉伸的图片, 但没有设置内容显示区域 -->
+	<Button 
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:text="没有设置右边距和下边距没有设置右边距和下边距没有设置右边距和下边距没有设置右边距和下边距"
+	    android:background="@drawable/nine_patch_button_lt"/>
+	
+	<!-- 拉伸图片, 同时设置了内容显示区域 -->
+	<Button 
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:text="设置了内容显示区域设置了内容显示区域设置了内容显示区域设置了内容显示区域"
+	    android:background="@drawable/nine_patch_button_lftb"/>
+    
+</LinearLayout>

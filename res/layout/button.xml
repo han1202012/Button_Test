@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+    <!-- 
+   		android:shadowColor 属性设置阴影的颜色
+        android:shadowRadius 属性设置引用的模糊程度, 该值越大模糊程度越高
+        android:shadowDx 属性设置阴影在水平方向的偏移
+        android:shadowDy 属性设置阴影在垂直方向的偏移
+     -->
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="阴影按钮"
+        android:textSize="20pt"
+        android:shadowColor="#DF01A5"
+        android:shadowRadius="1"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        />
+    
+    <!-- android:background属性设置的背景可以是图片,可以是xml资源文件 -->
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通按钮"
+        android:textSize="20pt"
+        android:background="@drawable/bg"/>
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XML文件按钮"
+        android:textSize="20pt"
+        android:background="@drawable/button_selector"/>
+
+</LinearLayout>
